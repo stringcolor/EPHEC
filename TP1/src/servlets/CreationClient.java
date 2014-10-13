@@ -22,6 +22,7 @@ public class CreationClient extends HttpServlet {
         String adresse = request.getParameter( "adresseClient" );
         String telephone = request.getParameter( "telephoneClient" );
         String email = request.getParameter( "emailClient" );
+        
 
         String message;
         /*

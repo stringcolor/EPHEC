@@ -12,7 +12,7 @@ import beans.Client;
 @SuppressWarnings("serial")
 public class CreationClient extends HttpServlet {
 
-    public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
+	public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
         /*
          * Récupération des données saisies, envoyées en tant que paramètres de
          * la requête GET générée à la validation du formulaire
